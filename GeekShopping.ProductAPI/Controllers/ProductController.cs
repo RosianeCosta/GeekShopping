@@ -43,7 +43,7 @@ namespace GeekShopping.ProductAPI.Controllers
         public async Task<IActionResult> Update(ProductVO vo)
         {
             if (vo == null) return BadRequest();
-            var product = _productRepository.Update(vo);
+            var product = await _productRepository.Update(vo);
 
             return Ok(product);
         }
