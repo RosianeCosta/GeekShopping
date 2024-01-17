@@ -15,32 +15,32 @@ namespace GeekShopping.ProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult FindById(long id) 
+        public async Task<IActionResult> FindById(long id) 
         {
-            var product = _productRepository.FindById(id);
+            var product = await _productRepository.FindById(id);
             if (product == null) return NotFound();
 
             return Ok(product); 
         }
 
         [HttpGet]
-        public IActionResult FindAll()
+        public async Task<IActionResult> FindAll()
         {
-            var products = _productRepository.FindAll();
+            var products = await _productRepository.FindAll();
             return Ok(products);
         }
 
         [HttpPost]
-        public IActionResult Create(ProductVO vo)
+        public async Task<IActionResult> Create(ProductVO vo)
         {
             if (vo == null) return BadRequest();
-            var product = _productRepository.Create(vo);
+            var product = await _productRepository.Create(vo);
 
             return Ok(product);
         }
 
         [HttpPut]
-        public IActionResult Update(ProductVO vo)
+        public async Task<IActionResult> Update(ProductVO vo)
         {
             if (vo == null) return BadRequest();
             var product = _productRepository.Update(vo);
@@ -49,9 +49,9 @@ namespace GeekShopping.ProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(long id)
+        public async Task<IActionResult> Delete(long id)
         {
-            var status = _productRepository.Delete(id);
+            var status = await _productRepository.Delete(id);
             if(!status) return BadRequest();    
             return Ok(status);
         }
