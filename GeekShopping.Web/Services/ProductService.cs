@@ -1,6 +1,7 @@
 ﻿using GeekShopping.Web.Util;
 using GeekShopping.Web.Models;
 using GeekShopping.Web.Services.IServices;
+using Microsoft.Extensions.Configuration;
 
 namespace GeekShopping.Web.Services
 {
@@ -8,6 +9,10 @@ namespace GeekShopping.Web.Services
     {
         private readonly HttpClient _client;
         public const string BasePath = "api/v1/product";
+        public ProductService(HttpClient client)
+        {
+            _client = client;
+        }
         public async Task<IEnumerable<ProductModel>> FindAllProducts()
         {
             var response = await _client.GetAsync(BasePath);
