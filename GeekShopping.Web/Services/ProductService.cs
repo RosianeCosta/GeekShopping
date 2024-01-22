@@ -1,7 +1,6 @@
 ﻿using GeekShopping.Web.Util;
 using GeekShopping.Web.Models;
 using GeekShopping.Web.Services.IServices;
-using Microsoft.Extensions.Configuration;
 
 namespace GeekShopping.Web.Services
 {
@@ -16,13 +15,13 @@ namespace GeekShopping.Web.Services
         public async Task<IEnumerable<ProductModel>> FindAllProducts()
         {
             var response = await _client.GetAsync(BasePath);
-            return await response.ReadContent<List<ProductModel>>();
+            return await response.ReadContentAs<List<ProductModel>>();
         }
 
         public async Task<ProductModel> FindAllProductById(long id)
         {
             var response = await _client.GetAsync($"{BasePath}/{id}");
-            return await response.ReadContent<ProductModel>();
+            return await response.ReadContentAs<ProductModel>();
         }
 
         public async Task<ProductModel> CreateProduct(ProductModel model)
@@ -32,7 +31,7 @@ namespace GeekShopping.Web.Services
             if (!response.IsSuccessStatusCode)
                 throw new Exception("Erro ao consultar Product API");
 
-            return await response.ReadContent<ProductModel>();
+            return await response.ReadContentAs<ProductModel>();
         }
 
         public async Task<ProductModel> UpdateProduct(ProductModel model)
@@ -42,7 +41,7 @@ namespace GeekShopping.Web.Services
             if (!response.IsSuccessStatusCode)
                 throw new Exception("Erro ao consultar Product API");
 
-            return await response.ReadContent<ProductModel>();
+            return await response.ReadContentAs<ProductModel>();
         }
 
         public async Task<bool> DeleteProductById(long id)
@@ -52,7 +51,7 @@ namespace GeekShopping.Web.Services
             if (!response.IsSuccessStatusCode)
                 throw new Exception("Erro ao consultar Product API");
 
-            return await response.ReadContent<bool>();
+            return await response.ReadContentAs<bool>();
         }
     }
 }
