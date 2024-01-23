@@ -88,6 +88,7 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.csproj.CoreCompileInputs.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.sourcelink.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\staticwebassets\msbuild.GeekShopping.ProductAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -102,4 +103,3 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.pdb
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.genruntimeconfig.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\ref\GeekShopping.ProductAPI.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net7.0\GeekShopping.ProductAPI.sourcelink.json
