@@ -1,12 +1,36 @@
 using GeekShopping.Web.Services;
 using GeekShopping.Web.Services.IServices;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var teste = new Uri(builder.Configuration["ServicesUrls:ProductApi"]);
+//var secret = builder.Configuration["ServicesUrls:Secret"];
+//var clientId = builder.Configuration["ServicesUrls:ClientId"];
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = "Cookies";
+    options.DefaultChallengeScheme = "oidc";
+}).AddCookie("Cookies", c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10)
+).AddOpenIdConnect("oidc", options => 
+{
+    options.Authority = builder.Configuration["ServicesUrls:IdentityServices"];
+    options.GetClaimsFromUserInfoEndpoint = true;
+    options.ClientId = builder.Configuration["ServicesUrls:ClientId"];
+    options.ClientSecret = builder.Configuration["ServicesUrls:Secret"];
+    options.ResponseType = "code";
+    options.ClaimActions.MapJsonKey("role", "role", "role");
+    options.ClaimActions.MapJsonKey("sub", "sub", "sub");
+    options.TokenValidationParameters.NameClaimType = "name";
+    options.TokenValidationParameters.RoleClaimType = "role";
+    options.Scope.Add("geek_shopping");
+    options.SaveTokens = true;
+});
+
 
 builder.Services.AddTransient<IProductService, ProductService>();
 
@@ -21,11 +45,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
-
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
