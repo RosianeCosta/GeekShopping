@@ -305,6 +305,7 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\n
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Duende.IdentityServer.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Duende.IdentityServer.AspNetIdentity.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Duende.IdentityServer.Storage.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Humanizer.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\IdentityModel.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -317,6 +318,7 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\n
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -324,6 +326,8 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\n
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -377,5 +381,3 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\n
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\GeekShopping.IdentityServer.pdb
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\ref\GeekShopping.IdentityServer.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\MySqlConnector.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
