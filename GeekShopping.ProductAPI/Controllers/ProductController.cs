@@ -16,6 +16,13 @@ namespace GeekShopping.ProductAPI.Controllers
             _productRepository = productRepository ?? throw new ArgumentException(nameof(productRepository));
         }
 
+        [HttpGet]
+        public async Task<IActionResult> FindAll()
+        {
+            var products = await _productRepository.FindAll();
+            return Ok(products);
+        }
+
         [HttpGet("{id}")]
         [Authorize]
         public async Task<IActionResult> FindById(long id) 
@@ -24,14 +31,6 @@ namespace GeekShopping.ProductAPI.Controllers
             if (product == null) return NotFound();
 
             return Ok(product); 
-        }
-
-        [HttpGet]
-        [Authorize]
-        public async Task<IActionResult> FindAll()
-        {
-            var products = await _productRepository.FindAll();
-            return Ok(products);
         }
 
         [HttpPost]
