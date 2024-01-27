@@ -17,10 +17,10 @@ namespace GeekShopping.CartAPI.Controllers
                 ArgumentNullException(nameof(repository));
         }
 
-        [HttpGet("find-cart/{id}")]
-        public async Task<ActionResult<CartVO>> FindById(string id)
+        [HttpGet("find-cart/{userId}")]
+        public async Task<ActionResult<CartVO>> FindById(string userId)
         {
-            var cart = await _repository.FindCartByUserId(id);
+            var cart = await _repository.FindCartByUserId(userId);
             if (cart == null) return NotFound();
             return Ok(cart);
         }

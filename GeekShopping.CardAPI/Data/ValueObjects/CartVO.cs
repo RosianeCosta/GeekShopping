@@ -2,7 +2,8 @@
 {
     public class CartVO
     {
-        public CartHeaderVO CartHeader { get; set; }
-        public IEnumerable<CartDetailVO> CartDetails { get; set; }
+        public long Id { get; set; }
+        public CartHeaderVO CartHeader { get; set; } = new CartHeaderVO();
+        public IEnumerable<CartDetailVO> CartDetails { get; set; } = new List<CartDetailVO>();
     }
 }

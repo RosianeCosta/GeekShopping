@@ -43,11 +43,12 @@ namespace GeekShopping.CartAPI.Repository
             Cart cart = new()
             {
                 CartHeader = await _context.CartHeaders
-                    .FirstOrDefaultAsync(c => c.UserId == userId),
+                    .FirstOrDefaultAsync(c => c.UserId == userId) ?? null,
             };
             cart.CartDetails = _context.CartDetails
                 .Where(c => c.CartHeaderId == cart.CartHeader.Id)
-                    .Include(c => c.Product);
+                    .Include(c => c.Product) ?? null;
+            
             return _mapper.Map<CartVO>(cart);
         }
 
@@ -87,14 +88,7 @@ namespace GeekShopping.CartAPI.Repository
         {
             Cart cart = _mapper.Map<Cart>(vo);
             //Checks if the product is already saved in the database if it does not exist then save
-            try 
-            {
-                var teste = await _context.Products.FirstOrDefaultAsync(p => p.Id == vo.CartDetails.FirstOrDefault().ProductId);
-            }
-            catch (Exception ex)
-            {
-                var message = ex.Message;
-            }
+         
             var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == vo.CartDetails.FirstOrDefault().ProductId);
 
             if (product == null)
