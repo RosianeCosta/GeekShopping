@@ -1,5 +1,6 @@
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\appsettings.json
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\keys\is-signing-key-1EF6F0E5320D84A6B555D8E1E742C299.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\GeekShopping.IdentityServer.staticwebassets.runtime.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\GeekShopping.IdentityServer.exe
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\GeekShopping.IdentityServer.deps.json
@@ -381,4 +382,3 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\n
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\GeekShopping.IdentityServer.pdb
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net7.0\ref\GeekShopping.IdentityServer.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net7.0\keys\is-signing-key-1EF6F0E5320D84A6B555D8E1E742C299.json

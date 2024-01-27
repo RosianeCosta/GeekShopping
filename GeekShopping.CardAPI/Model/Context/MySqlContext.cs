@@ -9,5 +9,6 @@ namespace GeekShopping.CartAPI.Model.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<CartHeader> CartHeaders { get; set; }
         public DbSet<CartDetail> CartDetails { get; set; }
+        public DbSet<Cart> Carts { get; set; }
     }
 }

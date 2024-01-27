@@ -4,6 +4,7 @@ using GeekShopping.CartAPI.Config;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using GeekShopping.CartAPI.Model.Context;
+using GeekShopping.CartAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -74,7 +75,7 @@ IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-//builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<ICartRepository, CartRepository>();
 
 var app = builder.Build();
 

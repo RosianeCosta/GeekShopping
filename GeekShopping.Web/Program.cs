@@ -1,7 +1,6 @@
 using GeekShopping.Web.Services;
 using GeekShopping.Web.Services.IServices;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,8 +31,10 @@ builder.Services.AddAuthentication(options =>
 });
 
 
+builder.Services.AddTransient<ICartService, CartService>();
 builder.Services.AddTransient<IProductService, ProductService>();
 
+builder.Services.AddHttpClient<ICartService, CartService>(c => c.BaseAddress = new Uri(builder.Configuration["ServicesUrls:CartApi"]));
 builder.Services.AddHttpClient<IProductService, ProductService>(c => c.BaseAddress = new Uri(builder.Configuration["ServicesUrls:ProductApi"]));
 
 var app = builder.Build();

@@ -12,24 +12,24 @@ namespace GeekShopping.Web.Services
         {
             _client = client;
         }
-        public async Task<IEnumerable<ProductModel>> FindAllProducts(string token)
+        public async Task<IEnumerable<ProductViewModel>> FindAllProducts(string token)
         {
             //Inserindo token n cabeçalho da request
             _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
             var response = await _client.GetAsync(BasePath);
-            return await response.ReadContentAs<List<ProductModel>>();
+            return await response.ReadContentAs<List<ProductViewModel>>();
         }
 
-        public async Task<ProductModel> FindAllProductById(long id, string token)
+        public async Task<ProductViewModel> FindAllProductById(long id, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
             var response = await _client.GetAsync($"{BasePath}/{id}");
-            return await response.ReadContentAs<ProductModel>();
+            return await response.ReadContentAs<ProductViewModel>();
         }
 
-        public async Task<ProductModel> CreateProduct(ProductModel model, string token)
+        public async Task<ProductViewModel> CreateProduct(ProductViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
@@ -38,10 +38,10 @@ namespace GeekShopping.Web.Services
             if (!response.IsSuccessStatusCode)
                 throw new Exception("Erro ao consultar Product API");
 
-            return await response.ReadContentAs<ProductModel>();
+            return await response.ReadContentAs<ProductViewModel>();
         }
 
-        public async Task<ProductModel> UpdateProduct(ProductModel model, string token)
+        public async Task<ProductViewModel> UpdateProduct(ProductViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
@@ -50,7 +50,7 @@ namespace GeekShopping.Web.Services
             if (!response.IsSuccessStatusCode)
                 throw new Exception("Erro ao consultar Product API");
 
-            return await response.ReadContentAs<ProductModel>();
+            return await response.ReadContentAs<ProductViewModel>();
         }
 
         public async Task<bool> DeleteProductById(long id, string token)
