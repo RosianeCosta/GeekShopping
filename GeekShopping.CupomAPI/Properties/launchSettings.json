@@ -14,11 +14,11 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5072;http://localhost:4451",
+      "applicationUrl": "https://localhost:4450;http://localhost:4451",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
+    }//,
     //"https": {
     //  "commandName": "Project",
     //  "dotnetRunMessages": true,

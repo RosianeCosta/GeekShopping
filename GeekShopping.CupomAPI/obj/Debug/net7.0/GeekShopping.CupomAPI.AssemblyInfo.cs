@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeekShopping.CupomAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96fd5561b2cdc2be4503300dcf34d62b5b7b507d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79d2f3cb3e2a07950b7dabf199b56fbf819677b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeekShopping.CupomAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeekShopping.CupomAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

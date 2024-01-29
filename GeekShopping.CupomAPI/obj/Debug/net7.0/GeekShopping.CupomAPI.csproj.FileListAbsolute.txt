@@ -1,11 +1,3 @@
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.csproj.AssemblyReference.cache
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.AssemblyInfoInputs.cache
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.AssemblyInfo.cs
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.csproj.CoreCompileInputs.cache
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.sourcelink.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\appsettings.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\GeekShopping.CupomAPI.exe
@@ -17,7 +9,6 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Humanizer.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -38,6 +29,14 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.csproj.AssemblyReference.cache
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.AssemblyInfoInputs.cache
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.AssemblyInfo.cs
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.csproj.CoreCompileInputs.cache
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\GeekShopping.CupomAPI.sourcelink.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CupomAPI\obj\Debug\net7.0\staticwebassets\msbuild.GeekShopping.CupomAPI.Microsoft.AspNetCore.StaticWebAssets.props
