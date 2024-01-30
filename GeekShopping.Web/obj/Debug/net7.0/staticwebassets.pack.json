@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\geek_shopping.png"
     },
     {
+      "Id": "C:\\Users\\rosia\\source\\repos\\GeekShopping\\GeekShopping.Web\\wwwroot\\images\\order.png",
+      "PackagePath": "staticwebassets\\images\\order.png"
+    },
+    {
       "Id": "C:\\Users\\rosia\\source\\repos\\GeekShopping\\GeekShopping.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
