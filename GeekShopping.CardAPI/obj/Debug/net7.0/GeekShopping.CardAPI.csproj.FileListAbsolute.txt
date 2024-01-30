@@ -51,3 +51,6 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\r
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.pdb
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.genruntimeconfig.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\ref\GeekShopping.CardAPI.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\GeekShopping.MessageBus.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\GeekShopping.MessageBus.pdb
