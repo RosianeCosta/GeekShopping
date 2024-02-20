@@ -86,7 +86,5 @@ namespace GeekShopping.Web.Services
         {
             throw new NotImplementedException();
         }
-
-       
     }
 }

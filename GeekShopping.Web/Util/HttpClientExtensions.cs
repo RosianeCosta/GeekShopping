@@ -27,5 +27,12 @@ namespace GeekShopping.Web.Util
             content.Headers.ContentType = contentType;
             return httpClient.PutAsync(url, content);
         }
+        public static async Task<bool> ReadContentBool<T>(this HttpResponseMessage response)
+        {
+            if (!response.IsSuccessStatusCode) throw new ApplicationException("$Erro ao chamar Product API: " + $"{response.ReasonPhrase}");
+            var dataAsString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+            return JsonSerializer.Deserialize<bool>(dataAsString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
     }
 }

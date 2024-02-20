@@ -84,7 +84,11 @@ namespace GeekShopping.Web.Controllers
             var token = await HttpContext.GetTokenAsync("access_token");
 
             var product = _productService.DeleteProductById(model.Id, token);
-            if (product.Result) return RedirectToAction("ProductIndex");
+            if (product.Result) 
+            {
+                var products = await _productService.FindAllProducts(string.Empty);
+                return RedirectToAction("ProductIndex", products);
+            }
             
             return NotFound();
         }

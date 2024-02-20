@@ -57,12 +57,12 @@ namespace GeekShopping.Web.Services
         {
             _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _client.GetAsync($"{BasePath}/{id}");
+            var response = await _client.DeleteAsync($"{BasePath}/{id}");
 
-            if (!response.IsSuccessStatusCode)
-                throw new Exception("Erro ao consultar Product API");
-
-            return await response.ReadContentAs<bool>();
+            if (response.IsSuccessStatusCode)
+                return true;
+            else
+                throw new Exception("Erro ao consultar Product API"); 
         }
     }
 }
