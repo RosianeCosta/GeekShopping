@@ -73,12 +73,18 @@ namespace GeekShopping.Web.Services
                 return await response.ReadContentAs<bool>();
             else throw new Exception("Something went wrong when calling API");
         }
-        public async Task<CartHeaderViewModel> Checkout(CartHeaderViewModel model, string token)
+        public async Task<object> Checkout(CartHeaderViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await _client.PostAsJson($"{BasePath}/checkout", model);
-            if (response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode) 
+            {
                 return await response.ReadContentAs<CartHeaderViewModel>();
+            } 
+            else if (response.IsSuccessStatusCode.ToString().Equals("PreconditionFailed")) 
+            {
+                return "Coupon price has changed, please confirm!";
+            }
             else throw new Exception("Something went wrong when calling API");
         }
 
