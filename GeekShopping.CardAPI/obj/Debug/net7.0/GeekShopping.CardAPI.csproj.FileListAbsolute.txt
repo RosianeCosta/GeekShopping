@@ -23,12 +23,15 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\M
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\MySqlConnector.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\GeekShopping.MessageBus.dll
+C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\GeekShopping.MessageBus.pdb
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.csproj.AssemblyReference.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.AssemblyInfoInputs.cache
@@ -51,6 +54,3 @@ C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\r
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.pdb
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\GeekShopping.CardAPI.genruntimeconfig.cache
 C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\obj\Debug\net7.0\ref\GeekShopping.CardAPI.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\RabbitMQ.Client.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\GeekShopping.MessageBus.dll
-C:\Users\rosia\source\repos\GeekShopping\GeekShopping.CardAPI\bin\Debug\net7.0\GeekShopping.MessageBus.pdb

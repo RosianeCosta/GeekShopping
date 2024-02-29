@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "a/VT2VFKPPzfgA0CU2dNYTHb3vqurOxsySsFtwnJa+o=",
-  "Source": "GeekShopping.PaymentApi",
-  "BasePath": "_content/GeekShopping.PaymentApi",
+  "Hash": "f/BAPMYG/J8Fdi3rJ6Z2BFpWmdfMvL0JMgE3tXxF6ys=",
+  "Source": "GeekShopping.PaymentAPI",
+  "BasePath": "_content/GeekShopping.PaymentAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
